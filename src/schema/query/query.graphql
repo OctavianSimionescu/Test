@@ -1,0 +1,10 @@
+type Query {
+  login(email: String!): AuthPayload!
+  getProjects(startDate: String!, endDate: String!, userId: String!): [ProjectPayload]!
+  getProject(startDate: String!, endDate: String!, userId: String!, projectId: String!): Project!
+  getSprint: Sprint
+  getFocusPeriod: FocusPeriod
+  getActiveIssue(userId: String!, startDate: String!, endDate: String!): ActiveIssuePayload
+  getStories(startDate: String, endDate: String!, projectId: String!): StoriesPayload
+  getJournals(issueId: String!): JournalPayload
+}

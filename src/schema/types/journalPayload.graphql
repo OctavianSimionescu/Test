@@ -1,0 +1,5 @@
+type JournalPayload {
+    status: Int
+    message: String
+    journals: [Journal]
+}

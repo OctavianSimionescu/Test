@@ -1,0 +1,6 @@
+  type AuthPayload {
+    status: Int!
+    message: String!
+    user: User
+    token: String!
+  }

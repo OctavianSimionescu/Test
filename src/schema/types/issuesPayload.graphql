@@ -1,0 +1,4 @@
+type IssuesPayload {
+  issues: [Issue]
+  storyId: Int
+}

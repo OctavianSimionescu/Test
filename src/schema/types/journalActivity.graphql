@@ -1,0 +1,5 @@
+type JournalActivity {
+    id: Int
+    journal_id: Int
+    type: String
+}

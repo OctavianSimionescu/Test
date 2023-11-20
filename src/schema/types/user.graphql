@@ -1,0 +1,8 @@
+type User {
+    id: ID!
+    data_source_id: Int!
+    external_id: String!
+    username: String!
+    email: String!
+    display_name: String
+}

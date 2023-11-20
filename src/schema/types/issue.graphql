@@ -1,0 +1,23 @@
+type Issue {
+    id: ID!
+    data_source_id: Int
+    external_id: String
+    project_id: Int
+    sprint_id: Int
+    status_id: Int
+    parent_id: Int
+    subject: String
+    spent_time: Float
+    done_ratio: Int
+    metadata: Metadata
+    description: String
+    created_on: String
+    updated_on: String
+    issue_type_id: Int!
+    position: Float
+    createdAt: String
+    updatedAt: String
+    estimated_time: Float
+    assignments: [Assignment]
+    journals: [Journal]
+}

@@ -1,0 +1,12 @@
+type Journal {
+    id: ID!
+    journalized_id: Int!
+    journalized_type: String!
+    user_id: Int!
+    notes: String
+    created_on: String
+    external_id: String
+    data_source_id: Int
+    details: [JournalDetail!]!  # This line adds the JournalDetails to the Journal type
+    activity: JournalActivity
+}

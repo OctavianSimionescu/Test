@@ -1,0 +1,4 @@
+type IssuePayload {
+    issueId: ID
+    issue: Issue
+}

@@ -1,0 +1,5 @@
+type Member {
+    project_id: Int!
+    user_id: Int!
+    user: User!
+}

@@ -1,0 +1,8 @@
+type Mutation {
+    createIssue(issue: String!): UpdateIssuePayload
+    updateIssue(issue: String!): DefaultResponse
+    updateIssueStatus(issueId: String!, statusId: String!, userId: String!): UpdateIssuePayload
+    updateIssuePosition(issueId: String!, position: Float!): DefaultResponse
+    updateStoryPosition(storyId: String!, position: Float!): DefaultResponse
+    updateFocusPeriod(focusPeriod: String!): DefaultResponse
+}

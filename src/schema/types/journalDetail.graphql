@@ -1,0 +1,8 @@
+type JournalDetail {
+    id: ID!
+    journal_id: Int!
+    property: String!
+    prop_key: String!
+    old_value: String
+    value: String
+}

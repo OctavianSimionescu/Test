@@ -1,0 +1,13 @@
+type Project {
+    id: ID
+    data_source_id: Int
+    external_id: String
+    name: String
+    description: String
+    metadata: Metadata
+    created_on: String
+    updated_on: String
+    sprints: [Sprint]
+    members: [Member]
+    stories: [StoryPayload]
+}

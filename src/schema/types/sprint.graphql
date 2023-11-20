@@ -1,0 +1,10 @@
+type Sprint {
+    id: ID
+    data_source_id: Int
+    name: String
+    external_id: String
+    start_date: String
+    end_date: String
+    description: String
+    project_id: Int
+}
